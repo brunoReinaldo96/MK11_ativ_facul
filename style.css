@@ -2,15 +2,6 @@
    font-family: fantasy;
 }
 
-.carousel-inner img{
-   width: 50%;
-}
-
-.container img{
-   height: 100%;
-   width: 100%;
-}
-
 .navbar-brand{
    font-size: 40px;
 }
@@ -31,15 +22,18 @@
    font-size: 4dvh;
 }
 
-.img-sobe1 {
-   padding: 150px;
-    
+.carousel{
+   padding-top: 70px;
+}
+
+.container-sobre {
+   padding: 150px;  
 }
 
 .img-sobre img{
    width: 100%;
    height: auto;
-   border-radius: 20px;
+   border-radius: 20px; 
 }
 
 .test-sobre{
@@ -47,10 +41,8 @@
    height: 100%;
    font-size: 30px;
    padding: 30px;
-   font-family: fantasy;
-   
+   font-family: fantasy;  
 }
-
 
 .trailer-MK{
   position: relative;
@@ -66,14 +58,27 @@
   height: 100%;
   
 }
+.card {
+   display: flex;
+   justify-content: center; 
+   align-items: center; 
+   padding: 10px;
+}
+
+.card  a{
+   width: 70%;
+   width: 70%;
+   
+   
+}
 
 .foot-cont  {
    color: white;
    text-align: center;
    padding: 40px;
+
 }
 
-   
 
    
    
